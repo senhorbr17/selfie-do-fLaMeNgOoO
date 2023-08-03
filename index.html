@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <title>Selfie por FLAMENGOO</title>
+</head>
+<body>
+    <center>
+        <main>
+            <h1>Selfie por FLAMENGOO</h1>
+            <div class="voz">
+                <h3>aperte em iniciar e diga FLAMENGOO</h3>
+                <h4><a href="https://www.youtube.com/shorts/zAJHPkl8RMU">jeito correto de falar:</a></h4>
+                <textarea  id="text" readonly="true" cols="30" rows="5"></textarea>
+                <br>
+                <button onclick="iniciar()">iniciar</button>
+            </div>
+    
+            <div class="webcam">
+                <p>webcam</p>
+                <div id="cam"></div>
+            </div>
+    
+            <div class="resultado">
+                <p>sua Selfie</p>
+                <div id="selfie"></div>
+                <button onclick="salvar()">salvar</button>
+            </div>
+    
+            <a href="" download="selfie.png" id="download"></a>
+        </main>
+    </center>
+   
+    <script src="main.js"></script>
+</body>
+</html>
